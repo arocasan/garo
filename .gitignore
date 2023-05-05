@@ -10,10 +10,11 @@
 *.userosscache
 *.sln.docstates
 secrets.py
+*.env
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-
+segredos/
 # Mono auto generated files
 mono_crash.*
 
