@@ -7,8 +7,8 @@ garo_address = segredo.GARO_ADDRESS
 
 
 def chargebox_status():
-
-    response = requests.get(f"{garo_address}/status")
+    s = requests.Session()
+    response = s.get(f"{garo_address}/status")
     chargebox_status = response.json()
     chargebox_mode = chargebox_status["mode"]
     chargebox_power = chargebox_status["powerMode"]
