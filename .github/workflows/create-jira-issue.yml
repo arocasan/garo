@@ -1,0 +1,5 @@
+name: Create jira issue
+on:
+    push:
+        - main
+        - spot-price
