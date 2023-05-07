@@ -4,4 +4,6 @@ on:
         - main
         - spot-price
 
+jobs:
+    -name: Hello
 workflow_dispatch:
