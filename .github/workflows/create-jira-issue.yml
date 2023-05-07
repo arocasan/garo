@@ -3,3 +3,5 @@ on:
     push:
         - main
         - spot-price
+
+workflow_dispatch:
